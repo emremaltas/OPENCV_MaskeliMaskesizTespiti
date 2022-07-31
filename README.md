@@ -25,6 +25,21 @@
 - Maskesiz yüz tespit edildiğinde, masaüstüne oluşturulmuş ***maskesiz girenler*** klasörüne, yüzün fotoğrafı çekilerek kaydedilmektedir.
 
 
+<br/>
+
+# Çalışma Anına Ait Görseller
+
+![Maske Takili Değil](https://github.com/emremaltas/OPENCV_MaskeliMaskesizTespiti/blob/main/maske%20takili%20değil.png)
+
+<br/>
+
+![Maske Takili](https://github.com/emremaltas/OPENCV_MaskeliMaskesizTespiti/blob/main/maske%20takili.png)
+
+<br/>
+
+![Maskesiz Girenler Klasörü](https://github.com/emremaltas/OPENCV_MaskeliMaskesizTespiti/blob/main/maskesiz%20girenler.png)
+
+
 
 
 
