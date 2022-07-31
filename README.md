@@ -1,18 +1,30 @@
-# MaskeliMaskesizTespiti
+# Maskeli - Maskesiz Yüz Tespiti
 
-Bu yazılım Biyomedikal Mühendisliği 3. sınıf Mühendislik Tasarımı dersim için  tarafımca kodlanmıştır!!
+### Biyomedikal Mühendisliği 3. sınıf ***Mühendislik Tasarımı*** dersim için  kodlanmıştır.
 
-# YAZILIM NE YAPIYOR?
+<br/>
 
-Yazılım temel ağız,burun,yüz tespitine dayalı olarak insanın yüzünde maske olup,olmama durum tespiti için tarafımca kodlanmıştır!!
+- Yazılım ağız, burun, yüz tespitine dayalı olarak insanın yüzünde maske olma durumu tespiti yapmaktadır.
 
-# Algoritması;
+<br/>
 
-Standart cascase dosyalarından yararlanılmıştır. Maske tespiti için öncelikle yüz tespitinin olup olmadığı kontrol edilmiştir.
-Ardından yüz tespiti var ise bu tespit edilen yüz dikdörtgen içine alınıyor ve ardından bu  yüz tespiti yapılan dikdörtgenin içinde ağız ve burun araması gerçekleştiriliyor.
-Eğer ağız veya burundan birisi tespit edilirse ekrana "Maske Takili Degil" yazısı yazılıyor.Tespit edilemez ise "Maske Takili" yazıyor.
+- Yüz tespiti işlemi için [maskeFoto](https://github.com/emremaltas/OPENCV_MaskeliMaskesizTespiti/tree/main/maskeFoto/maskeFoto) klasörü içindeki ***haarcascade_frontalface_default.xml*** dosyası kullanılmıştır.
 
-Maskesiz insan tespit edildiğinde ise masaüstündeki Maskesiz girenler klasörüne, maskesiz yüz tespiti yapıldığındaki fotoğraf yükleniyor.
-Çalışma anına ait 2 tane fotoğraf eklenmiştir!! (maskeli/maskesiz.png)
+<br/>
+
+- Burun tespiti işlemi için [maskeFoto](https://github.com/emremaltas/OPENCV_MaskeliMaskesizTespiti/tree/main/maskeFoto/maskeFoto) klasörü içindeki ***haarcascade_mcs_nose.xml*** dosyası kullanılmıştır.
+
+<br/>
+
+- Ağız tespiti işlemi için [maskeFoto](https://github.com/emremaltas/OPENCV_MaskeliMaskesizTespiti/tree/main/maskeFoto/maskeFoto) klasörü içindeki ***haarcascade_mcs_mouth.xml*** dosyası kullanılmıştır.
+
+# Algoritma
+
+- Maske tespiti için öncelikle yüz tespitinin olup olmadığı kontrol edilmiştir.Ardından yüz tespiti var ise bu tespit edilen yüz dikdörtgen içine alınarak içinde  ağız ve burun araması gerçekleştiriliyor. Ağız veya burun  tespit edilirse ekrana ***"Maske Takili Değil"*** her ikiside tespit edilemez ise  ***"Maske Takili"*** yazılıyor.
+
+- Maskesiz yüz tespit edildiğinde, masaüstüne oluşturulmuş ***maskesiz girenler*** klasörüne, yüzün fotoğrafı çekilerek kaydedilmektedir.
+
+
+
 
 
